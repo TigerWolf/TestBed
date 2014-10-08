@@ -1,0 +1,13 @@
+PATH
+  remote: /Users/a1673450/dev/nexusmotion
+  specs:
+    nexusmotion (0.0.1)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nexusmotion!
