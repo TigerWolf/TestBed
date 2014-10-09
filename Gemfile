@@ -1,1 +1,1 @@
-gem "nexusmotion", :path => "/Users/a1673450/dev/nexusmotion"
+gem 'nexusmotion', ">= 0.0.1.beta"
