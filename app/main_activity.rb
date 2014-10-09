@@ -5,7 +5,7 @@ class MainActivity < Android::App::Activity
     begin
       puts "started - testbed"
       c = Nexusmotion::Client.new
-      url = "https://ERRORposttestserver.com/post.php?dir=nexusmotion"
+      url = "https://posttestserver.com/post.php?dir=nexusmotion"
       data = [["id", 33443]]
       result = c.post(url, data)
       puts "Result:"
