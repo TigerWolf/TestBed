@@ -1,12 +1,16 @@
+PATH
+  remote: /Users/a1673450/dev/nexusmotion
+  specs:
+    nexusmotion (0.0.2.beta)
+
 GEM
   remote: http://rubygems.org/
   specs:
-    nexusmotion (0.0.1.beta)
     rake (10.3.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  nexusmotion (>= 0.0.1.beta)
-  rake
+  nexusmotion!
+  rake (= 10.3.2)

@@ -8,7 +8,7 @@ begin
 rescue LoadError
 end
 
-require 'nexusmotion' # For some reason this needs to be manual
+#require 'nexusmotion' # For some reason this needs to be manual
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
