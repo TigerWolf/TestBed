@@ -1,16 +1,20 @@
 PATH
-  remote: /Users/a1673450/dev/nexusmotion
+  remote: /Users/a1673450/dev/motion-set
   specs:
-    nexusmotion (0.0.2.beta)
+    motion-set (0.2.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
+    bacon (1.2.0)
+    colorize (0.7.3)
     rake (10.3.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  nexusmotion!
+  bacon
+  colorize
+  motion-set!
   rake (= 10.3.2)
